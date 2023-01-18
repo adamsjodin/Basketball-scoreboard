@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Maven+Pro:wght@400;500;600;700;800;900&family=Montserrat:wght@400;600;700&family=Poppins&display=swap');
+body {
+    margin: 0;
+    font-family: 'poppins';
+}
+
+.container {
+
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    background-color: #1B244A;
+    text-align: center;
+}
+
+.container h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-score p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
+
+#home-score, #guest-score {
+    background-color: black;
+    color: red;
+    font-size: 3rem;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 2.5rem 4rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #1B244A;
+}
+
+#reset-btn {
+    background-color: #1B244A;
+    margin-top: 3rem;
+}
+#reset-btn:hover {
+    background-color: red;
+    color: white;
+}
